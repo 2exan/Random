@@ -1,0 +1,88 @@
+{
+    "$schema": "./pokemons.schema.json",
+"pokemons":     [
+    {
+        "name": "Pikachu",
+        "number": 25,
+        "level": 35,
+        "type": ["Electric"],
+        "evolution": {
+            "number": 26, 
+            "name": "Raichu"
+        },
+        "abilities": [
+            {
+                "name": "Thunderbolt",
+                "damage": 40,
+                "type": "Electric"
+            },
+            {
+                "name": "Quick Attack",
+                "damage": 50,
+                "type": "Electric"
+            }
+        ]
+    },
+    {
+        "name": "Bulbasaur",
+        "number": 1,
+        "level": 16,
+        "type": ["Grass", "Poison"],
+        "evolution": {
+            "number": 2,
+            "name": "Ivysaur"
+        },
+        "abilities": [
+            {
+                "name": "Razor Leaf",
+                "damage": 35,
+                "type": "Grass"
+            },
+            {
+                "name": "Poison Powder",
+                "damage": 60,
+                "type": "Poison"
+            }
+        ]
+    },
+    {
+        "name": "Charmander",
+        "number": 4,
+        "level": 20,
+        "type": ["Fire"],
+        "evolution": {
+            "number": 5,
+            "name": "Charmeleon"
+        },
+        "abilities": [
+            {
+                "name": "Flame Charge",
+                "damage": 40,
+                "type": "Fire"
+            }
+        ]
+    },
+    {
+        "name": "Squirtle",
+        "number": 7,
+        "level": 15,
+        "type": ["Water"],
+        "evolution": {
+            "number": 8,
+            "name": "Wartortle"
+        },
+        "abilities": [
+            {
+                "name": "Water Gun",
+                "damage": 35,
+                "type": "Water"
+            },
+            {
+                "name": "Water Pulse",
+                "damage": 60,
+                "type": "Water"
+            }
+        ]
+    }
+]
+}
