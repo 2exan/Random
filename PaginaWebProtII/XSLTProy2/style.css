@@ -1,0 +1,47 @@
+ body {
+            background-color: #fcfcfc;
+            font-family: system-ui;
+            margin: 0;
+            padding: 0;
+            padding-left: 150px;
+          }
+         
+          
+          table, th, td {
+              border: 0px solid #000;
+
+          }
+
+          th, td {
+            padding: 7px;
+            white-space: nowrap;
+            text-align: left;
+            vertical-align: top;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 180px;          
+          }
+
+          th {
+            background-color: #C5D4EB;
+          }
+
+          td {
+            background-color: #dbe9f4; 
+          }
+
+          h3  {
+            text-decoration: underline;
+          }
+
+          table {
+              border-collapse: collapse;
+          }
+
+          
+          header {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              margin-bottom: 18px;
+          }

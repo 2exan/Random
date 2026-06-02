@@ -1,0 +1,11 @@
+    {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "properties": {
+            "nom": { "type": "string", "minLength": 6},
+            "nivel": {"type": "integer", "minimum": 1, "maximum": 50},
+            "clases": {"type": "array", "items": {"type": "string"}}
+        },
+        "required": ["nom", "nivel"]
+    }
+

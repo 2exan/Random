@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "maxItems": 5,
+  "items": {
+    "type": "object",
+    "required": ["nom", "nivel"],
+    "properties": {
+      "nom": {
+        "type": "string",
+        "minLength": 6
+      },
+      "nivel": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 50
+      },
+      "clases": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      }
+    },
+    "additionalProperties": false
+  }
+}

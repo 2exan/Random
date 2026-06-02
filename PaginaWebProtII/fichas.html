@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8"> 
+    <head>
+        <style>
+
+            body {
+                background-color: #fcfcfc;
+                font-family: system-ui;
+                margin: 0;
+                padding: 0;
+            }
+         
+         
+            .Logo {
+            justify-content: space-between; 
+            display: flex;
+            background-color: #f0f0f0;
+        }
+
+        
+
+        .menu {
+            display: flex;
+            gap: 19px;
+            align-items: center;  
+            padding: 20px;
+        }
+
+        
+
+        .menu a {
+            text-decoration: none;
+            color: #8e22bb;
+            text-align: middle;
+            font-weight: 500;
+            font-size: 18px;
+            
+        }
+
+        .menu a:hover {
+            text-decoration:underline;
+            
+        }
+
+        img {
+            display: flex;
+            height: 70px;
+           padding: 15px;
+        }
+
+        .menu a.fichas{
+        background-color: #d3d3d3;
+        padding:6px;
+       }
+
+       button {
+        background-color: #8e22bb;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+        margin: 20px 20px 0 20px;
+    }
+
+    button:hover {
+        background-color: #7a1da0;
+    }
+        </style>
+    </head>
+    <body>
+        <header>
+        <div class="Logo">
+            <img src="../PaginaWebProtII/imagenes/VetNovaCopia.png" alt="vetnova">
+            <div class="menu">
+            <a href="PaginaWebP2.html" class="iniciomenu"> Inicio </a>
+            <a href="adopta.html" class="adopta">Adopta</a>
+            <a href="historias.html" class="historias">Historias</a>
+            <a href="fichas.html" class="fichas"> Fichas Mascota </a>
+            </div>
+        </div>
+        </header>
+           <h1>Ficha de Mascota</h1>
+            <button type="button" onclick="window.location.href='XSLTProy2/XMLPro2.xml'">
+                <strong>
+                Enlace a las fichas de mascota
+                </strong>
+            </button>
+    </body>
+</html>

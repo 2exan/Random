@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLTPro2.xsl"?>
+<fichamascota>
+    <mascota id="004" sexo="Macho" tipo_Pelo="Largo">
+        <chip>123456789</chip>
+        <tipo>Perro</tipo>
+        <nombre>Duke</nombre>
+        <fecha_nacimiento>10-01-2020</fecha_nacimiento>
+        <raza>Golden Retriever</raza>
+        <pedigree>true</pedigree>
+        <peso>30 kg</peso>
+        <color_pelo>Marrón</color_pelo>
+        <foto>duke.jpg</foto>
+       <vacunas>
+            <vacuna laboratorio="Virbac">
+                <nombre_vacuna>Parvovirus</nombre_vacuna>
+                <fecha_vacuna>20-02-2023</fecha_vacuna>
+                <fecha_proxima>20-02-2024</fecha_proxima>
+            </vacuna>
+            <vacuna laboratorio="Zoetis">
+                <nombre_vacuna>Rabia</nombre_vacuna>
+                <fecha_vacuna>20-02-2023</fecha_vacuna>
+                <fecha_proxima></fecha_proxima>
+            </vacuna>
+        </vacunas>
+        <propietario>
+            <nombre_prop>Roberto</nombre_prop>
+            <apellido>Pérez</apellido>
+            <telefono>+34 660 002 336</telefono>
+            <mail>rperez@yahoo.com</mail>
+            <direccion>c/Gran Vía, 34</direccion>
+        </propietario>
+        <visitas>
+            <visita id="v-1004">
+                <fecha_visita>20-04-2022</fecha_visita>
+                <mascotaref>004</mascotaref>
+                <motivo_consulta>Vacuna anual</motivo_consulta>
+                <diagnostico>Vacunación</diagnostico>
+                <tratamiento>Administrada la vacuna</tratamiento>
+                <alta>true</alta>
+            </visita>
+            <visita id="v-1005">
+                <fecha_visita>15-07-2023</fecha_visita>
+                <mascotaref>004</mascotaref>
+                <motivo_consulta>Revisión dermatológica</motivo_consulta>
+                <diagnostico>Irritación en la piel</diagnostico>
+                <tratamiento>Champú antialérgenos</tratamiento>
+                <alta>true</alta>
+            </visita>
+        </visitas>
+    </mascota>
+    <mascota id="005" sexo="Hembra" tipo_Pelo="Rizado">
+        <chip>9384228448</chip>
+        <tipo>Perro</tipo>
+        <nombre>Lana</nombre>
+        <fecha_nacimiento>15-04-2021</fecha_nacimiento>
+        <raza>Caniche</raza>
+        <pedigree>false</pedigree>
+        <peso>8 kg</peso>
+        <color_pelo>Blanco</color_pelo>
+        <foto>lana.jpg</foto>
+        <vacunas>
+            <vacuna laboratorio="Hipra">
+                <nombre_vacuna>Leishmaniosis</nombre_vacuna>
+                <fecha_vacuna>15-02-2022</fecha_vacuna>
+                <fecha_proxima>15-02-2023</fecha_proxima>
+            </vacuna>
+            <vacuna laboratorio="Hipra">
+                <nombre_vacuna>Rabia</nombre_vacuna>
+                <fecha_vacuna>15-02-2022</fecha_vacuna>
+                <fecha_proxima>15-02-2023</fecha_proxima>
+            </vacuna>
+        </vacunas>
+        <propietario>
+            <nombre_prop>María</nombre_prop>
+            <apellido>Sánchez</apellido>
+            <telefono>+34 666 324 870</telefono>
+            <mail>msanchezp@gmail.com</mail>
+            <direccion>c/Aragón, 56</direccion>
+        </propietario>
+        <visitas>
+            <visita id="v-1006">
+                <fecha_visita>30-04-2023</fecha_visita>
+                <mascotaref>005</mascotaref>
+                <motivo_consulta>Problemas de hambre</motivo_consulta>
+                <diagnostico>Obstrucciones</diagnostico>
+                <tratamiento>Mejoras alimenticias</tratamiento>
+                <alta>true</alta>
+            </visita>
+            <visita id="v-1007">
+                <fecha_visita>10-09-2023</fecha_visita>
+                <mascotaref>005</mascotaref>
+                <motivo_consulta>Control post-tratamiento</motivo_consulta>
+                <diagnostico>Mejoría completa</diagnostico>
+                <tratamiento>Ninguno</tratamiento>
+                <alta>true</alta>
+            </visita>
+        </visitas>
+    </mascota>
+    <mascota id="006" sexo="Macho" tipo_Pelo="Largo liso">
+        <chip>8473628193</chip>
+        <tipo>Gato</tipo>
+        <nombre>Simba</nombre>
+        <fecha_nacimiento>20-06-2019</fecha_nacimiento>
+        <raza>Mainecoon</raza>
+        <pedigree>true</pedigree>
+        <peso>10 kg</peso>
+        <color_pelo>Negro y Blanco</color_pelo>
+        <foto>simba.jpg</foto>
+        <vacunas>
+            <vacuna laboratorio="Zoetis">
+                <nombre_vacuna>Leucemia Felina</nombre_vacuna>
+                <fecha_vacuna>20-01-2022</fecha_vacuna>
+                <fecha_proxima>20-02-2023</fecha_proxima>
+            </vacuna>
+            <vacuna laboratorio="Hipra">
+                <nombre_vacuna>Pfízer</nombre_vacuna>
+                <fecha_vacuna>20-01-2022</fecha_vacuna>
+                <fecha_proxima>20-02-2023</fecha_proxima>
+            </vacuna>
+        </vacunas>
+        <propietario>
+            <nombre_prop>Sergio</nombre_prop>
+            <apellido>Castro</apellido>
+            <telefono>+34 722 22 29 43</telefono>
+            <mail>scastro@gmail.com</mail>
+            <direccion>c/Diagonal, 22</direccion>
+        </propietario>
+        <visitas>
+            <visita id="v-1008">
+                <fecha_visita>15-03-2023</fecha_visita>
+                <mascotaref>006</mascotaref>
+                <motivo_consulta>Chequeo anual</motivo_consulta>
+                <diagnostico>Salud óptima</diagnostico>
+                <tratamiento>Ninguno</tratamiento>
+                <alta>true</alta>
+            </visita>
+            <visita id="v-1009">
+                <fecha_visita>05-11-2023</fecha_visita>
+                <mascotaref>006</mascotaref>
+                <motivo_consulta>Vómitos</motivo_consulta>
+                <diagnostico>Malestares del estómago</diagnostico>
+                <tratamiento>Pasta para el estómago</tratamiento>
+                <alta>true</alta>
+            </visita>
+        </visitas>
+    </mascota>
+</fichamascota>
